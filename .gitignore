@@ -1,0 +1,45 @@
+# ============================================
+#  Java 控制台项目 .gitignore
+#  只提交人写的文件：源码、说明、脚本
+# ============================================
+
+# ---------- 编译产物 ----------
+*.class
+*.jar
+out/
+bin/
+target/
+build/
+dist/
+hs_err_pid*.log
+
+# ---------- Maven / Gradle（本项目暂未使用，保留备用）----------
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.gradle/
+gradlew
+gradlew.bat
+
+# ---------- IntelliJ IDEA ----------
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ---------- Eclipse / VS Code / NetBeans ----------
+.classpath
+.project
+.settings/
+.vscode/
+*.code-workspace
+nbproject/
+
+# ---------- 系统与缓存 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+*.bak
+*.swp
+*~
